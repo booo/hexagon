@@ -1,0 +1,19 @@
+html
+    head
+        title hexagons
+        script(type="text/javascript", src="http://d3js.org/d3.v2.js")
+        script(type="text/javascript", src="index.js")
+        style(type="text/css")
+
+            svg {
+                border: solid 1px #aaa;
+                backbround: #eee;
+             }
+
+            path, line {
+                stroke: steelblue;
+                stroke-width: 1;
+                fill: none;
+            }
+
+    body(onload="init();")

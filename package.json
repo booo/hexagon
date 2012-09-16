@@ -1,0 +1,13 @@
+{
+  "name": "hexagon",
+  "version": "0.0.0",
+  "description": "hexagons in d3.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "jade": "*"
+  }
+}
